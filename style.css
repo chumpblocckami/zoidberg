@@ -1,0 +1,26 @@
+/* Footer styles */
+#footer {
+    background-color: #f8f9fa;
+    /* light Bootstrap-compatible background */
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+    color: #6c757d;
+    /* Bootstrap's muted text color */
+    margin-top: 40px;
+    border-top: 1px solid #dee2e6;
+}
+
+/* Responsive tweak: Ensure footer isn't squashed on small screens */
+@media (max-width: 576px) {
+    #footer {
+        padding: 15px;
+        font-size: 13px;
+    }
+}
+
+/* Optional: Add a subtle hover effect to list items */
+.list-group-item:hover {
+    background-color: #e9ecef;
+    transition: background-color 0.2s ease-in-out;
+}
